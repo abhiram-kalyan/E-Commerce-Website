@@ -78,5 +78,5 @@ exports.requireSignin= (req,res,next) =>
     req.user = user;
     next();
 
-    //jwt.decode()
+    
 }
